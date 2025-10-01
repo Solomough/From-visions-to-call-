@@ -1,0 +1,27 @@
+/* Clean, modern reading theme */
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:Georgia,'Times New Roman',serif;line-height:1.8;background:#f7f8fa;color:#222;margin:0}
+.container{max-width:900px;margin:0 auto;padding:2rem 1.25rem}
+header,footer{text-align:center}
+header{padding:2.5rem 1rem 1rem;background:#ffffff;border-bottom:1px solid #eee}
+header h1{font-size:2.2rem;margin:.25rem 0;color:#2c3e50}
+header p{color:#555}
+main{background:#fff}
+h2,h3{color:#34495e}
+a{color:#10774e;text-decoration:none}
+a:hover{text-decoration:underline}
+.toc ul{list-style:none;padding:0}
+.toc li{margin:.5rem 0}
+footer{padding:2rem 1rem;color:#666;border-top:1px solid #eee}
+.chapter-nav{display:flex;justify-content:space-between;gap:1rem;margin-top:2rem;padding-top:1rem;border-top:1px solid #eee}
+.chapter-nav a{font-weight:bold}
+blockquote{margin:1rem 0;padding:1rem 1.25rem;background:#f2f6f4;border-left:4px solid #10774e}
+hr{border:none;border-top:1px solid #eee;margin:1.5rem 0}
+@media (prefers-color-scheme: dark){
+  body{background:#0f1115;color:#eaeaea}
+  header,main{background:#151821;border-color:#2a2f3a}
+  h2,h3{color:#e5f3ed}
+  a{color:#8be2b2}
+  blockquote{background:#1a1f28;border-left-color:#8be2b2}
+  footer{border-color:#2a2f3a;color:#adb5bd}
+}
